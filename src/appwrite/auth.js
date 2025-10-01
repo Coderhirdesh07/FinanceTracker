@@ -1,17 +1,10 @@
 const APPWRITE_CONFIG = {
-    endpoint:'',
-    URL:'',
-}
+  endpoint: '',
+  URL: '',
+};
 
-export function handleUserLogin(){
+export function handleUserLogin() {}
 
-}
+export function handleNewUserRegistration() {}
 
-export function handleNewUserRegistration(){
-
-}
-
-export function handleUserLogout(){
-
-}
-
+export function handleUserLogout() {}

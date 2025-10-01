@@ -1,3 +1,1 @@
-export function getAllTransaction(){
-
-}
+export function getAllTransaction() {}

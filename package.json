@@ -7,11 +7,15 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "format": "prettier --write \"src/**/*.{js,jsx,json,css,ts,tsx,md}\"",
+  "format:check": "prettier --check \"src/**/*.{js,jsx,json,css,ts,tsx,md}\""
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.9.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-redux": "^9.2.0",
     "react-router-dom": "^7.9.3"
   },
   "devDependencies": {
@@ -26,6 +30,7 @@
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.3.0",
     "postcss": "^8.5.6",
+    "prettier": "3.6.2",
     "tailwindcss": "^3.4.17",
     "vite": "^7.1.2"
   }

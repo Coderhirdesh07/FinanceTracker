@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 function AddTransaction() {
-  return (
-    <div>AddTransaction</div>
-  )
+  return <div>AddTransaction</div>;
 }
 
-export default AddTransaction
+export default AddTransaction;
