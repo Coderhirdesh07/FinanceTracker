@@ -14,18 +14,18 @@ import SignUp from '../src/components/Forms/SignUp.jsx';
 import Home from '../src/components/Header/Home.jsx';
 
 const router = createBrowserRouter(
-     createRoutesFromElements(
-          <Route path='/' element={<Layout/>}>
-          <Route index element={<Home/>}/>
-          <Route path='home' element={<Home/>}/>
-          <Route  path='login' element={<Login/>}/>
-          <Route path='signup' element={<SignUp/>}/>
-          </Route>
-     )
-)
+  createRoutesFromElements(
+    <Route path="/" element={<Layout />}>
+      <Route index element={<Home />} />
+      <Route path="home" element={<Home />} />
+      <Route path="login" element={<Login />} />
+      <Route path="signup" element={<SignUp />} />
+    </Route>
+  )
+);
 createRoot(document.getElementById('root')).render(
-  <RouterProvider router={router}/>
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
+  <RouterProvider router={router} />
+  //   <React.StrictMode>
+  //     <App />
+  //   </React.StrictMode>
 );
