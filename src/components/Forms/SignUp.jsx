@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function SignUp() {
   function handleSignupButton(e) {
@@ -106,9 +107,9 @@ function SignUp() {
 
         <p className="text-sm text-center text-gray-500">
           Already have an account?{' '}
-          <a href="#" className="text-purple-600 hover:underline">
+          <Link to="/login" className="text-purple-600 hover:underline">
             Log in
-          </a>
+          </Link>
         </p>
       </form>
     </div>

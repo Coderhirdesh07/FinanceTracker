@@ -9,10 +9,11 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "format": "prettier --write \"src/**/*.{js,jsx,json,css,ts,tsx,md}\"",
-  "format:check": "prettier --check \"src/**/*.{js,jsx,json,css,ts,tsx,md}\""
+    "format:check": "prettier --check \"src/**/*.{js,jsx,json,css,ts,tsx,md}\""
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.9.0",
+    "appwrite": "^21.0.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-redux": "^9.2.0",

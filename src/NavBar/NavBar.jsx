@@ -13,7 +13,7 @@ function NavBar() {
           <div className="flex flex-row gap-2 ml-2">
             <img src={dashboard} />
             <p>Dashboard</p>
-          </div>{' '}
+          </div>
         </ul>
       </NavLink>
       <NavLink>
@@ -21,7 +21,7 @@ function NavBar() {
           <div className="flex flex-row gap-1 ml-1">
             <img src={history} />
             <p>History</p>
-          </div>{' '}
+          </div>
         </ul>
       </NavLink>
       <NavLink>
@@ -29,7 +29,7 @@ function NavBar() {
           <div className="flex flex-row gap-1 ml-1">
             <img src={transaction} />
             <p>Add Transaction</p>
-          </div>{' '}
+          </div>
         </ul>
       </NavLink>
       <NavLink>
