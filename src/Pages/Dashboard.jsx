@@ -4,7 +4,7 @@ import TransactionForm from '../components/TrasactionForm';
 import GraphComponent from '../components/GraphComponent';
 
 function Dashboard() {
-  return <div></div>;
+  return <div>Dashboard</div>;
 }
 
 export default Dashboard;

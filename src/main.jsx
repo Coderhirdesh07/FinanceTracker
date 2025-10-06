@@ -11,6 +11,9 @@ import {
 } from 'react-router-dom';
 import TrasactionFrom from './components/TrasactionForm.jsx';
 import Layout from './Layout.jsx';
+import Dashboard from './Pages/Dashboard.jsx'
+import History from './Pages/History.jsx';
+import Logout from './Pages/Logout.jsx';
 import Login from '../src/components/Forms/Login.jsx';
 import SignUp from '../src/components/Forms/SignUp.jsx';
 import Home from '../src/components/Header/Home.jsx';
@@ -22,6 +25,9 @@ const router = createBrowserRouter(
       <Route path="home" element={<Home />} />
       <Route path="login" element={<Login />} />
       <Route path="signup" element={<SignUp />} />
+      <Route path="/dashboard" element={<Dashboard/>} />
+      <Route path="/history" element={<History/>} />
+      <Route path="/logout" element={<Logout/>} />
     </Route>
   )
 );
