@@ -2,12 +2,14 @@ import { createRoot } from 'react-dom/client';
 import './index.css';
 import NavBar from './NavBar/NavBar.jsx';
 import App from './App.jsx';
+import TransactionCard from './components/TrasactionCard.jsx';
 import {
   Route,
   RouterProvider,
   createBrowserRouter,
   createRoutesFromElements,
 } from 'react-router-dom';
+import TrasactionFrom from './components/TrasactionForm.jsx';
 import Layout from './Layout.jsx';
 import Login from '../src/components/Forms/Login.jsx';
 import SignUp from '../src/components/Forms/SignUp.jsx';
@@ -25,7 +27,4 @@ const router = createBrowserRouter(
 );
 createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
-  //   <React.StrictMode>
-  //     <App />
-  //   </React.StrictMode>
 );

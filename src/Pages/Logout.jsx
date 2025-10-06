@@ -8,8 +8,13 @@ function Logout() {
 
   return (
     <div className="flex flex-row gap-2 p-2 ">
-      <img src={logout} alt="logout img" />
-      <button onClick={handleUserLogout}>Logout</button>
+      <div>
+        <img src={logout} alt="logout img" />
+      </div>
+
+      <div>
+        <button onClick={handleUserLogout}>Logout</button>
+      </div>
     </div>
   );
 }
