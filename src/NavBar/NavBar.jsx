@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import dashboardIcon from '../assets/icons8-dashboard-layout-96.png';
 import historyIcon from '../assets/icons8-history-96.png';
-import logoutIcon from '../assets/icons8-logout-96.png'; 
+import logoutIcon from '../assets/icons8-logout-96.png';
 
 function NavBar() {
   // return (
@@ -64,7 +64,7 @@ function NavBar() {
         </div>
       </nav>
     </div>
-  )
+  );
 }
 
 export default NavBar;
