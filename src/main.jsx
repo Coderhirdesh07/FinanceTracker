@@ -17,7 +17,8 @@ import Logout from './Pages/Logout.jsx';
 import Login from '../src/components/Forms/Login.jsx';
 import SignUp from '../src/components/Forms/SignUp.jsx';
 import Home from '../src/components/Header/Home.jsx';
-
+import { Provider } from 'react-redux';
+import { store } from './store/store.js';
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
@@ -32,5 +33,7 @@ const router = createBrowserRouter(
   )
 );
 createRoot(document.getElementById('root')).render(
-  <RouterProvider router={router} />
+  <Provider store={store}>
+    <RouterProvider router={router} />
+  </Provider>
 );

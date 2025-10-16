@@ -9,7 +9,7 @@ function Header() {
         <p className="text-xl align-middle">Finance Tracker</p>
       </div>
 
-      <div className="flex flex-row justify-center gap-2 p-2">
+      {/* <div className="flex flex-row justify-center gap-2 p-2">
         <ul>
           <NavLink
             to="/home"
@@ -24,7 +24,7 @@ function Header() {
             Home
           </NavLink>
         </ul>
-      </div>
+      </div> */}
 
       <div className="flex flex-row justify-evenly p-2 gap-2">
         <Link to="/login" className="bg-blue-400 border-r-2 rounded p-2">
